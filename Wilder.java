@@ -24,10 +24,10 @@ class Wilder {
   public String whoAmI(String firstname,boolean aware){
     if (this.aware==true){
       return "Je m'appelle "+ this.getFirstName() + " et je suis aware";
-    } else {
+      } else {
       return "Je m'appelle "+ this.getFirstName() + " et je ne suis pas aware";
+      }
+  
     }
-  
-  
   
   }
